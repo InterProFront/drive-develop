@@ -1,1 +1,1 @@
-<h1>This is a master no more stability version</h1>
+<h1>This is a 2.0 version</h1>
