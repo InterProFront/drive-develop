@@ -11,15 +11,18 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
+
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+Route::get('/', 'FrontController@getIndex');
 
+Route::get('/program/{slug}', 'FrontController@getProgram');
+Route::get('/reconstruct', 'FrontController@getReconstructs');
+Route::get('/contacts', 'FrontController@getContacts');
 
 Route::group(['middleware' => 'auth', 'prefix' => 'adm'], function(){
 

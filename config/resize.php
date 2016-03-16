@@ -23,7 +23,7 @@ return [
     ],
     'slider_slide' =>[
         'sizes' => [
-            ['width'=>1000, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
+            ['width'=>1080, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
             ['width'=>240, 'height'=>null, 'sufix'=>'secondary'],
             ['width'=>100, 'height'=>null, 'sufix'=>'preview'],
             ['width'=>100, 'height'=>null, 'sufix'=>'prefix'],
@@ -32,7 +32,7 @@ return [
     ],
     'static_photo_block_head' =>[
         'sizes' => [
-            ['width'=>1000, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
+            ['width'=>1080, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
             ['width'=>240, 'height'=>null, 'sufix'=>'secondary'],
             ['width'=>100, 'height'=>null, 'sufix'=>'preview'],
             ['width'=>100, 'height'=>null, 'sufix'=>'prefix'],
@@ -41,7 +41,7 @@ return [
     ],
     'static_blog_head' =>[
         'sizes' => [
-            ['width'=>1000, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
+            ['width'=>1080, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
             ['width'=>240, 'height'=>null, 'sufix'=>'secondary'],
             ['width'=>100, 'height'=>null, 'sufix'=>'preview'],
             ['width'=>100, 'height'=>null, 'sufix'=>'prefix'],
@@ -50,7 +50,7 @@ return [
     ],
     'about_school_head' =>[
         'sizes' => [
-            ['width'=>1000, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
+            ['width'=>1080, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
             ['width'=>240, 'height'=>null, 'sufix'=>'secondary'],
             ['width'=>100, 'height'=>null, 'sufix'=>'preview'],
             ['width'=>100, 'height'=>null, 'sufix'=>'prefix'],
@@ -68,7 +68,7 @@ return [
     ],
     'blog_post_head' =>[
         'sizes' => [
-            ['width'=>1000, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
+            ['width'=>1080, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
             ['width'=>240, 'height'=>null, 'sufix'=>'secondary'],
             ['width'=>100, 'height'=>null, 'sufix'=>'preview'],
             ['width'=>100, 'height'=>null, 'sufix'=>'prefix'],
@@ -77,7 +77,7 @@ return [
     ],
     'programs_head' =>[
         'sizes' => [
-            ['width'=>1000, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
+            ['width'=>1080, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
             ['width'=>240, 'height'=>null, 'sufix'=>'secondary'],
             ['width'=>100, 'height'=>null, 'sufix'=>'preview'],
             ['width'=>100, 'height'=>null, 'sufix'=>'prefix'],
@@ -86,7 +86,7 @@ return [
     ],
     'dom_photos_head' =>[
         'sizes' => [
-            ['width'=>1000, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
+            ['width'=>1080, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
             ['width'=>240, 'height'=>null, 'sufix'=>'secondary'],
             ['width'=>100, 'height'=>null, 'sufix'=>'preview'],
             ['width'=>100, 'height'=>null, 'sufix'=>'prefix'],
@@ -95,7 +95,7 @@ return [
     ],
     'reconstruction_head' =>[
         'sizes' => [
-            ['width'=>1000, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
+            ['width'=>1080, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
             ['width'=>240, 'height'=>null, 'sufix'=>'secondary'],
             ['width'=>100, 'height'=>null, 'sufix'=>'preview'],
             ['width'=>100, 'height'=>null, 'sufix'=>'prefix'],
@@ -104,7 +104,7 @@ return [
     ],
     'contacts_head' =>[
         'sizes' => [
-            ['width'=>1000, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
+            ['width'=>1080, 'height'=>null, 'sufix'=>'primary', 'mod'=>false],
             ['width'=>240, 'height'=>null, 'sufix'=>'secondary'],
             ['width'=>100, 'height'=>null, 'sufix'=>'preview'],
             ['width'=>100, 'height'=>null, 'sufix'=>'prefix'],

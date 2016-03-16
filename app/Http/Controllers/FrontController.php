@@ -1,6 +1,8 @@
 <?php namespace App\Http\Controllers;
 
-class WelcomeController extends Controller {
+use Interpro\QuickStorage\Concept\QueryAgent;
+
+class FrontController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -18,19 +20,35 @@ class WelcomeController extends Controller {
 	 *
 	 * @return void
 	 */
-	public function __construct()
-	{
-		$this->middleware('guest');
-	}
-
 	/**
 	 * Show the application welcome screen to the user.
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function getIndex()
 	{
-		return view('welcome');
+		return view('front.index.index');
+	}
+	public function getProgram(QueryAgent $queryAgent, $slug)
+	{
+		$program = $queryAgent->getGroupItemBySlug('dom_program','programs',$slug);
+		return view('front.programs.program',[
+			'program' => $program
+		]);
+	}
+	public function getReconstructs(QueryAgent $queryAgent )
+	{
+		$rec = $queryAgent->getBlock('reconstruction',[],[]);
+		return view('front.other.other',[
+			'other' => $rec
+		]);
+	}
+	public function getContacts(QueryAgent $queryAgent)
+	{
+		$cont = $queryAgent->getBlock('contacts',[],[]);
+		return view('front.other.other',[
+			'other' => $cont
+		]);
 	}
 
 }
